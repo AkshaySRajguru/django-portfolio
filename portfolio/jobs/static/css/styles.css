@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color:#b4f4fb !important;
+
+  position: relative;
+  padding-top: 100px;
+}
+
+.MyDp {
+  height: 30%;
+  width: 70%;
+  margin-top: 2%;
+}
+
+.MyImg1 {
+  border-radius: 100%;
+  height: 20%;
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}

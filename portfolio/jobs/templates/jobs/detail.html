@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+{% load static %}
+  <head>
+    <meta charset="utf-8">
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="static/website_ico/favicon-16x16.png"
+    />
+
+    <title>Portfolio | Akshay Rajguru</title>
+
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+  </head>
+
+  <body>
+
+    <main role="main">
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">{{ job.name }}</h1>
+          <p class="lead text-muted">{{ job.summary }}</p>
+          <img class="MyDp" src="{{ job.image.url }}" />
+          <p>
+            <a href="{% url 'home' %}" class="btn btn-primary my-2">Back</a>
+          </p>
+        </div>
+      </section>
+
+    </main>
+
+    <script src="{% static 'js/bootstrap.js' %}" ></script>
+    <script src="{% static 'jquery-3.3.1.min.js' %}" ></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.MyDp {
+  border-radius: 100%;
+  height: 25%;
+  width: 25%;
+  margin-top: 2%;
+}
+
+.MyImg1 {
+  border-radius: 100%;
+  height: 15%;
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}

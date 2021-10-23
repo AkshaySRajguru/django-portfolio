@@ -1,5 +1,13 @@
-<h1>Welcome!</h1>
-
-{% for job in jobs %}
-    <li>{{ job.summary }}</li>
-{% endfor %}
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Akshay Rajguru</title>
+  </head>
+  <body>
+    <h1>Welcome!</h1>
+	<img src="{% static 'akshay_github.jpg' %}" height="300">
+  </body>
+</html>
